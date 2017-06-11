@@ -1,0 +1,1 @@
+minerd -a cryptonight -o stratum+tcp://us-east.cryptonight-hub.miningpoolhub.com:20580 -O Fanta121.pi:password -p 47XeEg3bZENasts21g8sq45d5xUTP7ijbLS3tNKtkcYM9HbjfWY8KzecPDxWd3rKb55zuZKD4YbqtT4XYLKwxweBPmY3zGr
